@@ -1,4 +1,7 @@
 ## Olá eu sou a Pablo P. Galvão, estudante de programação e entusiasta da tecnologia!
+
+  ![](https://api.visitorbadge.io/api/VisitorHit?user=pablopgalvaof&repo=github-visitors-badge&countColor=%237B1E7A)
+
 <div align="center">
   
   <a href="https://github.com/galvao614">
@@ -6,6 +9,7 @@
    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablopgalvao&layout=compact&compact&theme=highcontrast"/>
 </div>
   
+
   
 <div style="display: inline_block"><br>
   <img align="center" alt="pablo-dev" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg">
@@ -32,6 +36,6 @@
   <a href = "mailto:el_pablo1@live.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/pablo-p-galvao/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
  
-  ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
+  ![Snake animation](https://github.com/pablopgalvao/pablopgalvao/blob/output/github-contribution-grid-snake.svg)
  
 </div>
