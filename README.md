@@ -1,36 +1,43 @@
-### Olá, mundo!🌎 
-### Sou o Pablo, estudante de programação e entusiasta da tecnologia!
 
+> ### Opa! Tudo bem? Me chamo Pablo Galvão
+> ### Seja bem vindo ao meu GitHub!
+> ### Sou o Pablo, estudante de programação e entusiasta da tecnologia!
+
+<br>
 
   ![](https://api.visitorbadge.io/api/VisitorHit?user=pablopgalvaof&repo=github-visitors-badge&countColor=%237B1E7A)
 
+<br>
+
 <div align="center">
   
-  <a href="https://github.com/galvao614">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pablopgalvao&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablopgalvao&layout=compact&compact&theme=highcontrast"/>
+<a href="https://github.com/galvao614">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=pablopgalvao&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pablopgalvao&layout=compact&compact&theme=highcontrast"/>
 </div>
   
 
   
-<div style="display: inline_block"><br>
-  <img align="center" alt="pablo-dev" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg">
-  <img align="center" alt="pablo-Dp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-original-wordmark.svg">
-  <img align="center" alt="pablo-Wp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg">
+<div align="center" style="display: inline_block"><br>
+    <img align="center" alt="pablo-dev" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg">
+    <img align="center" alt="pablo-Dp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-original-wordmark.svg">
+    <img align="center" alt="pablo-Wp" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg">
   <!-- <img align="center" alt="pablo-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"> -->
-  <img align="center" alt="pablo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="pablo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="pablo-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img align="center" alt="pablo-Php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg">
+    <img align="center" alt="pablo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+    <img align="center" alt="pablo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+    <img align="center" alt="pablo-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+    <img align="center" alt="pablo-Php" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg">
   <!-- <img align="center" alt="pablo-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> -->
-  <img align="center" alt="pablo-git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg">
+    <img align="center" alt="pablo-git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg">
   
  <!--  <img align="right" alt="pablo-pic" height="150" style="border-radius:50px;" src=""> -->
 </div>
   
-  ##
- 
-<div> 
+ <br>
+
+ #### Conecte-se a mim:
+
+<div align="center">
   <!-- <a href="" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  	<a href="" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a> -->
