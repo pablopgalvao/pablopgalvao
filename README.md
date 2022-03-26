@@ -1,7 +1,7 @@
 
 > ### Opa! Tudo bem? Me chamo Pablo Galvão
 > ### Seja bem vindo ao meu GitHub!
-> ### Sou o Pablo, estudante de programação e entusiasta da tecnologia!
+> ### Sou estudante de programação e entusiasta da tecnologia!
 
 <br>
 
