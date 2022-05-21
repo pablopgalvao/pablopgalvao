@@ -126,7 +126,7 @@ html{
     /* font-size: 1.2em;*/
     /* letter-spacing: .1em;  */
     line-height: 1em;
-    background: url(image/caricatura-pablo.png),url(image/caricatura-pablo.png);
+    background: url(https://github.com/pablopgalvao/pablopgalvao/blob/master/image/caricatura-pablo.png?raw=true),url(https://github.com/pablopgalvao/pablopgalvao/blob/master/image/caricatura-pablo.png?raw=true);
     /* border: 1rem dashed #333; */
     padding: 1rem;
     background-blend-mode: color-dodge;
