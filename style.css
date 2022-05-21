@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lora&family=Roboto+Condensed&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ html{
 }
 .max-width{
     max-width: 1300px;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     margin: auto;
 }
 /*  navbar   inicio*/
@@ -18,12 +18,12 @@ html{
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
+    ffont-family: 'Courier Prime', monospace;
     z-index: 999;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-     background: #00804b;
+     background: #11172b;
      padding: 15px 0;
 }
 .navbar .max-width{
@@ -37,7 +37,7 @@ html{
     font-weight: 500;
 }
 .navbar .logo a span{
-    color: #00804b;
+    color: #11172b;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -55,7 +55,7 @@ html{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #00804b;
+    color: #11172b;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -63,15 +63,16 @@ html{
 /*  Home   inicio  */
 .home{
     display: flex;
-    background: url(image/banner.png) no-repeat;
+    /* background: url(image/portfolio-background.png) no-repeat; */
+    background-color: rgb(255, 255, 255);
     background-size: cover;
-    height: 100vh;
-    color: #fff;
+    /* height: 100vh; */
+    /* color: #fff; */
     min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Courier Prime', monospace; */
 }
 .home .max-width{
-    margin: auto 0 auto 40px;
+    margin: auto 0 auto 20px;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -86,27 +87,63 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color:#00804b ;
+    color:#11172b ;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: #00804b;
+    background: #11172b;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #00804b;
+    /* border-radius: 6px; */
+    border: 2px solid #11172b;
 }
 .home .home-content a:hover{
-    color: #00804b;
+    color: #11172b;
     background: none;
+}
+
+/* Face Text */
+.textf{
+    font-family: 'Lora', serif;
+    word-break: break-all;
+    /* text-align: center; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+}
+
+.textf .tp{
+    height: auto;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+}
+.textf .tp .tp-content .text-tp{
+    /* padding: 20px; */
+    position: relative;
+    /* font-size: 1.2em;*/
+    /* letter-spacing: .1em;  */
+    line-height: 1em;
+    background: url(image/caricatura-pablo.png),url(image/caricatura-pablo.png);
+    /* border: 1rem dashed #333; */
+    padding: 1rem;
+    background-blend-mode: color-dodge;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    color: rgb(90 92 120 / 22%);
+    transition: 500ms all ease-in-out;
+}
+.textf .tp .tp-content .text-tp:hover{
+    color: rgb(2, 2, 2);
 }
 
 /*  Menu  Mobile  */
 .menu-btn{
-    color: #fff;
+    color: #11172b;
     font-size: 26px;
     cursor: pointer;
     display: none;
@@ -120,8 +157,8 @@ html{
     text-align: center;
     line-height: 50px;
     color: #fff;
-    background: #00804b;
-    border-radius: 6px;
+    background: #11172b;
+    /* border-radius: 6px; */
     font-size: 30px;
     z-index: 9999;
     cursor: pointer;
@@ -141,12 +178,12 @@ section{
     padding: 100px 0;
 }
 section .title{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
     position: relative;
 }
 section .title::before{
@@ -165,12 +202,12 @@ section .title::after{
     left: 50%;
     font-size: 20px;
     background: #fff;
-    color: #00804b;
+    color: #11172b;
     padding: 5px;
     transform: translateX(-50%);
 }
 .about, .services, .skills, .teams, .contact, footer{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier Prime', monospace;
 }
 .about .about-content,
 .services .serv-content,
@@ -199,36 +236,36 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: #00804b;
+    color: #11172b;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: #00804b;
+    background: #11172b;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #00804b;
+    /* border-radius: 6px; */
+    border: 2px solid #11172b;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: #00804b;
+    color: #11172b;
     background: none;
 }
 .about .about-content .left img{
     width: 400px;
     height: 400px;
     object-fit: cover;
-    border-radius: 6px;
+    /* border-radius: 6px; */
 }
 /*  sessão serviços */
 .services, .teams{
-    background: #111;
+    background: rgb(17, 17, 17);
     color: #fff;
 }
 .services .title::before,
@@ -244,13 +281,13 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #00804b;
+    background: #11172b;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -260,7 +297,7 @@ section .title::after{
 }
 .services .serv-content .card ion-icon{
     font-size: 70px;
-    color: #00804b;
+    color: #11172b;
 }
 .services .serv-content .card:hover ion-icon{
     color: #fff;
@@ -287,18 +324,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: #00804b;
+    background: #11172b;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
-    border-radius: 6px;
-    border: 2px solid #00804b;
+    /* border-radius: 6px; */
+    border: 2px solid #11172b;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #00804b;
+    color: #11172b;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -325,7 +362,7 @@ section .title::after{
     height: 100%;
     top: 0;
     left: 0;
-    background: #00804b;
+    background: #11172b;
 }
 .skills .skills-content .right .html::before{
     width: 93%;
@@ -380,7 +417,7 @@ section .title::after{
 }
 .contact .contact-content .row ion-icon{
     font-size: 25px;
-    color: #00804b;
+    color: #11172b;
 }
 .contact .rigth form .fields{
     display: flex;
@@ -396,11 +433,11 @@ section .title::after{
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     outline: none;
     padding: 0 15px;
     font-size: 17px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Courier Prime', monospace;
 }
 .contact .rigth form .name{
     margin-right: 10px;
@@ -423,17 +460,17 @@ section .title::after{
 .contact .rigth form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid #00804b;
-    background: #00804b;
+    border: 2px solid #11172b;
+    background: #11172b;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .contact .rigth form .button button:hover{
-    color: #00804b;
+    color: #11172b;
     background: none;
 }
 
@@ -445,7 +482,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: #00804b;
+    color: #11172b;
     text-decoration: none;
 }
 footer span a:hover{
@@ -556,4 +593,8 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
+}
+
+@media (screen) {
+    
 }
