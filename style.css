@@ -18,7 +18,7 @@ html{
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    ffont-family: 'Courier Prime', monospace;
+    /* font-family: 'Courier Prime', monospace; */
     z-index: 999;
     transition: all 0.3s ease;
 }
@@ -32,7 +32,7 @@ html{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    color: rgb(207, 31, 31);
     font-size: 35px;
     font-weight: 500;
 }
@@ -48,7 +48,7 @@ html{
     display: inline-block;
 }
 .navbar .menu li a{
-    color: #fff;
+    color: rgb(207, 31, 31);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -66,13 +66,13 @@ html{
     /* background: url(image/portfolio-background.png) no-repeat; */
     background-color: rgb(255, 255, 255);
     background-size: cover;
-    /* height: 100vh; */
+    height: 100vh;
     /* color: #fff; */
-    min-height: 500px;
+    /* min-height: 500px; */
     /* font-family: 'Courier Prime', monospace; */
 }
 .home .max-width{
-    margin: auto 0 auto 20px;
+    margin: auto 0 auto 90px;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -97,7 +97,6 @@ html{
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
-    /* border-radius: 6px; */
     border: 2px solid #11172b;
 }
 .home .home-content a:hover{
@@ -109,41 +108,40 @@ html{
 .textf{
     font-family: 'Lora', serif;
     word-break: break-all;
-    /* text-align: center; 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
+    max-width: 50vw;
+
 }
 
 .textf .tp{
     height: auto;
     overflow: hidden;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0);
 }
 .textf .tp .tp-content .text-tp{
     /* padding: 20px; */
-    position: relative;
+    /* position: relative; */
     /* font-size: 1.2em;*/
     /* letter-spacing: .1em;  */
     line-height: 1em;
-    background: url(https://github.com/pablopgalvao/pablopgalvao/blob/master/image/caricatura-pablo.png?raw=true),url(https://github.com/pablopgalvao/pablopgalvao/blob/master/image/caricatura-pablo.png?raw=true);
+    background: url(https://github.com/pablopgalvao/pablopgalvao/blob/master/image/caricatura-pablo.png?raw=true) no-repeat ;
     /* border: 1rem dashed #333; */
     padding: 1rem;
     background-blend-mode: color-dodge;
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    background-position: right;
     background-attachment: fixed;
     -webkit-background-clip: text;
-    color: rgb(90 92 120 / 22%);
+    color: rgba(90, 92, 120, 0);
     transition: 500ms all ease-in-out;
 }
 .textf .tp .tp-content .text-tp:hover{
-    color: rgb(2, 2, 2);
+    color: rgb(32, 32, 32);
+    background: fixed;
 }
 
 /*  Menu  Mobile  */
 .menu-btn{
-    color: #11172b;
+    color: #f00;
     font-size: 26px;
     cursor: pointer;
     display: none;
@@ -158,7 +156,6 @@ html{
     line-height: 50px;
     color: #fff;
     background: #11172b;
-    /* border-radius: 6px; */
     font-size: 30px;
     z-index: 9999;
     cursor: pointer;
@@ -249,7 +246,6 @@ section .title::after{
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
-    /* border-radius: 6px; */
     border: 2px solid #11172b;
     transition: all 0.3s ease;
 }
@@ -261,7 +257,6 @@ section .title::after{
     width: 400px;
     height: 400px;
     object-fit: cover;
-    /* border-radius: 6px; */
 }
 /*  sessão serviços */
 .services, .teams{
@@ -281,7 +276,6 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    /* border-radius: 6px; */
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -330,7 +324,6 @@ section .title::after{
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
-    /* border-radius: 6px; */
     border: 2px solid #11172b;
     transition: all 0.3s ease;
 }
@@ -433,7 +426,6 @@ section .title::after{
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
-    /* border-radius: 6px; */
     outline: none;
     padding: 0 15px;
     font-size: 17px;
@@ -465,7 +457,6 @@ section .title::after{
     color: #fff;
     font-size: 20px;
     font-weight: 500;
-    /* border-radius: 6px; */
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -543,6 +534,7 @@ footer span a:hover{
     }
     .home .home-content .text-3{
         font-size: 35px;
+        max-width: 400px;
     }
     .home .home-content a{
         font-size: 23px;
@@ -585,7 +577,18 @@ footer span a:hover{
     .services .serv-content .card {
         width:100%;
     }
+    /* text portrait */
+    .textf
+    {
+        display: none;
+    }
+    /* text portrait */
+    .home {
+        display: block;
+    }    
+    
 }
+
 @media (max-width: 500px){
     .home .home-content .text-2{
         font-size: 50px;
@@ -593,8 +596,4 @@ footer span a:hover{
     .home .home-content .text-3{
         font-size: 27px;
     }
-}
-
-@media (screen) {
-    
 }
