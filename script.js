@@ -22,7 +22,7 @@ $(document).ready(function(){
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Curioso", "Persistene", "Observador", "Sicero"],
+        strings:["Curioso", "Persistente", "Observador", "Sincero"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
